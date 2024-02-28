@@ -1,2 +1,7 @@
 # Asteroids
-Implementation of the popular arcade game Asteroids in MATLAB
+Implementation of the popular arcade game `Asteroids` in MATLAB
+
+
+# Overview and Instructions
+
+To run the game, run `start.m` file and then click `Play Game` when the home screen appears. In the game, a player controls a spaceship in an asteroid field. As asteroids move along the screen, the player tries to shoot the asteroids while not allowing the spaceship to hit one of the asteroids (this would result in the loss of a life). When a player shoots an asteroid, it breaks into two smaller asteroids (there are three asteroid sizes). Once the user has destroyed all asteroids completely, the screen resets to the original screen with three large asteroids moving across the screen. The user collects point every time he/she shoots an asteroid (10 points for a large asteroid, 20 points for a medium-sized asteroid, and 50 points for a small one). Every asteroid has a random velocity and a direction of motion, and asteroids that run into each other pass through one another. A maximum of four lasers can be in play at any given time. If a laser is fired, it lasts for one second and then disappears. Once a laser disappears, it can be fired again. Every object in the game wraps around the edges of the game screen. Once the user loses three lives, the game is over. The total number of points and the number of lives a user has are displayed in the top left corner of the game screen throughout the game. 
